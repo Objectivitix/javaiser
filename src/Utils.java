@@ -32,14 +32,6 @@ public class Utils {
         );
     }
 
-    // creates and "sizes" an empty "square" JPanel
-    // for convenient placement in border layouts
-    public static JPanel spacer(int space) {
-        JPanel spacer = new JPanel();
-        spacer.setPreferredSize(new Dimension(space, space));
-        return spacer;
-    }
-
     // make any given text center-aligned and multiline,
     // for use in a JLabel, using styled html tags
     public static String center(String text) {
